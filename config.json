@@ -1,0 +1,13 @@
+{
+    "emailsFilepath": "emails.json",
+	"baseCurrency":      "BTC",
+	"baseCurrencyMark":  "{BASE}",
+	"quoteCurrency":     "UAH",
+	"quoteCurrencyMark": "{QUOTE}",
+	"coinapiUrl": "https://rest.coinapi.io/v1/exchangerate/{BASE}/{QUOTE}/?apikey=735B916A-29E3-49D7-BB21-5142DF49DAAC",
+    "coinapiRateKey": "rate",
+	"binanceUrl": "https://api.binance.com/api/v3/ticker/price?symbol={BASE}{QUOTE}",
+    "binanceRateKey": "price",
+	"environmentVarBinanceProviderName": "BINANCE",
+	"environmentVarCoinapiProviderName": "COINAPI"
+}
